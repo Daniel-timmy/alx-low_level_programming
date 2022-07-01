@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
  * Evaluates is greater than 5,and is 0 or and is less than 6 and not 0
