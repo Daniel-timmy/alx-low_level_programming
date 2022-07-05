@@ -1,11 +1,12 @@
 #include "main.h"
-/**                                         
- * print_alphabet - Prints the alphabet in lowercase x10.
+/** 
+ * print_alphabet_x10 - Prints the alphabet in lowercase x10.
  *
- * Return: Always 0 (Success)                */
+ * Return: Always 0 (Success)
+ */
 void print_alphabet_x10(void)
 {
-	int i,j;
+	int i, j;
 
 	j = 0;
 	while (j < 10)
@@ -14,6 +15,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(i);
 		}
+		_putchar('\n');
 		j++;
 	}
 }
