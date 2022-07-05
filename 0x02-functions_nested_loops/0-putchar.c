@@ -11,7 +11,7 @@ int main(void)
 	char str[] = "_putchar";
 	int i, cnt;
 
-	cnt= strlen(str);
+	cnt = strlen(str);
 	for (i = 0; i < cnt; i++)
 	{
 		c = str[i];
