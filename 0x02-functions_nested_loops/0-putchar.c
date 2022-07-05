@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * A program that prints _putchar
  *
@@ -8,9 +9,10 @@ int main(void)
 {
 	char c;
 	char str[]="_putchar";
-	int i;
+	int i, cnt;
 
-	for (i=0; i<strlen(str); i++)
+	cnt= strlen(str);
+	for (i=0; i<cnt; i++)
 	{
 		c=str[i];
 		_putchar(c);
