@@ -10,7 +10,7 @@ int main(void)
 
 	for (cnt = 1; cnt <= 100; cnt++)
 	{
-		if (cnt % 3 == 0 && cnt % 5 ==0)
+		if ((cnt % 3 == 0) && (cnt % 5 ==0))
 		{
 			printf("FizzBuzz");
 		}
@@ -26,5 +26,6 @@ int main(void)
 			printf("%d", cnt);
 		printf(" ");
 	}
+	printf("\n");
 	return (0);
 }
