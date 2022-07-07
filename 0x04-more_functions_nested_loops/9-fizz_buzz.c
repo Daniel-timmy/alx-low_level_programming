@@ -14,19 +14,20 @@ int main(void)
 	{
 		if ((cnt % 3 == 0) && (cnt % 5 == 0))
 		{
-			printf("FizzBuzz");
+			printf(" FizzBuzz");
 		}
 		else if (cnt % 3 == 0)
 		{
-			printf("Fizz");
+			printf(" Fizz");
 		}
 		else if (cnt % 5 == 0)
 		{
-			printf("Buzz");
+			printf(" Buzz");
 		}
-		else 
-			printf("%d", cnt);
-		printf(" ");
+		else
+		{	
+			printf(" %d", cnt);
+		}
 	}
 	printf("\n");
 	return (0);
