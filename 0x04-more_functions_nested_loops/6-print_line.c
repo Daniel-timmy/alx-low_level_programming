@@ -7,8 +7,6 @@
  */
 void print_line(int n)
 {
-	int i;
-
 	for ( ; n > 0; n--)
 	{
 		_putchar(95);
