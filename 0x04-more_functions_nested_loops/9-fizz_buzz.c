@@ -8,9 +8,11 @@ int main(void)
 {
 	int cnt;
 
-	for (cnt = 1; cnt <= 100; cnt++)
+	cnt = 1;
+	printf("%d", cnt);
+	for (cnt = 2; cnt <= 100; cnt++)
 	{
-		if ((cnt % 3 == 0) && (cnt % 5 ==0))
+		if ((cnt % 3 == 0) && (cnt % 5 == 0))
 		{
 			printf("FizzBuzz");
 		}
