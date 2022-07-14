@@ -28,4 +28,4 @@ char *_strncat(char *dest, char *src, int n)
 		c2++;
 	}
 	return (dest);
-}				
+}
