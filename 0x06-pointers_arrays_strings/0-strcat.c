@@ -17,12 +17,13 @@ char *_strcat(char *dest, char *src)
 	{
 		c++;
 	}
-	while (*(src + i) != '\0')
+	while (i >= 0)
 	{
 		*(dest + c) = *(src + i);
+		if (*(src + c) == '\0')
+			break;
 		i++;
 		c++;
 	}
-	(dest + c) = '\0';
 	return (dest);
 }
