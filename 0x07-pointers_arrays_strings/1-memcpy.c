@@ -4,7 +4,7 @@
  * memory area src to memory area dest
  * @dest: destination pointer
  * @src: source array
- * @n bytes of memory to be copied
+ * @n: bytes of memory to be copied
  *
  * Return: returns a pointer to dest
  */
