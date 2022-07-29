@@ -46,5 +46,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		else
 			sout[k] = s2[k - i];
 	}
+	sout[k] = '\0';
 	return (sout);
 }
