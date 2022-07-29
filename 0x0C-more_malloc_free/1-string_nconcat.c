@@ -26,12 +26,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	j = 0;
 	while (s2[j] != '\0')
 		j++;
-	
-	if (n >= j)
+
+	if (n > j)
 		n = j;
 
 	sum = n + i;
-	sout = malloc(sizeof(char) * (sum + 1));
+	sout = malloc(sum + 1);
 
 	if (sout == NULL)
 	{
@@ -39,7 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 
-	for (k = 0; k < sum; i++)
+	for (k = 0; k < sum; k++)
 	{
 		if (k < i)
 			sout[k] = s1[k];
