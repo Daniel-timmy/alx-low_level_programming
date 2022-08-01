@@ -3,6 +3,7 @@
  * init_dog - initialize a variable of type struct dog
  * @d: instance of struct dog
  * @age: float variable age
+ * @name: name of dog
  * @owner: name of owner
  *
  * Return: returns void
