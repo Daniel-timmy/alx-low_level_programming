@@ -55,8 +55,10 @@ void print_all(const char * const format, ...)
 			}
 			printf("%s", str);
 			break;
+		default:
+			break;
 		}
-		if (cnt3 < (cnt2 - 1))
+		if (cnt3 < (cnt2 - 1) && (format[cnt3] == 'c' || format[cnt3] == 'i' || format[cnt3] == 'f' || format[cnt3] == 's'))
 			printf(", ");
 		cnt3++;
 	}
