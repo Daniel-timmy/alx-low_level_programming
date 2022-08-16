@@ -5,7 +5,7 @@
  *
  * @head: pointer to list
  *
- * Returns: returns an int.
+ * Return: returns an int.
  */
 int sum_listint(listint_t *head)
 {
