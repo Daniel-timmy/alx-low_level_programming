@@ -2,7 +2,7 @@
 
 /**
  * print_listint -  prints all the elements of a listint_t list.
- * @node: the list to be printed
+ * @h: the list to be printed
  *
  * Return: returns the number of nodes.
  *
