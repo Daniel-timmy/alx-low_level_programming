@@ -7,7 +7,7 @@
  * Return: returns the number of nodes.
  *
  */
-size_t print_listint(const listint_t *node)
+size_t print_listint(const listint_t *h)
 {
 	size_t nnodes = 0;
 
