@@ -10,6 +10,7 @@
  *
  * Description: singly linked list node structure
  *
+ * @listint_t: typedef name
  */
 typedef struct listint_s
 {
